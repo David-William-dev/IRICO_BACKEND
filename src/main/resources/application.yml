@@ -1,0 +1,19 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://irico:1234@cluster0.4wvipao.mongodb.net/irico_data?retryWrites=true&w=majority&maxPoolSize=100&minPoolSize=10&maxIdleTimeMS=60000&waitQueueTimeoutMS=120000
+      # uri: mongodb+srv://irico:1234@cluster0.4wvipao.mongodb.net/irico_data?retryWrites=true&w=majority&appName=Cluster0&ssl=true
+server:
+  port: 8082
+  address: 0.0.0.0
+
+app:
+  jwt:
+    secret: UrkXxbKiOVfLOr9PnUhIXpJPft70sMUt  # use at least 32 chars
+    expiration-ms: 360000000 # 1 hour
+
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: method
