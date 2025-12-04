@@ -1,8 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://irico:1234@cluster0.4wvipao.mongodb.net/irico_data?retryWrites=true&w=majority&maxPoolSize=100&minPoolSize=10&maxIdleTimeMS=60000&waitQueueTimeoutMS=120000
-      # uri: mongodb+srv://irico:1234@cluster0.4wvipao.mongodb.net/irico_data?retryWrites=true&w=majority&appName=Cluster0&ssl=true
+     # uri: mongo-uri
 server:
   port: 8082
   address: 0.0.0.0
